@@ -259,8 +259,8 @@ export default function Home() {
       <AnimatedContent distance={100} direction="vertical" duration={0.8}>
         <section className="py-8 px-4 sm:px-6 lg:px-16">
           <div className="flex w-full justify-between items-center mb-4">
-            <h2 className="text-2xl font-bold">SHOP ROLLERSKATES</h2>
-            <div className="py-2 px-4 border text-blue-700 text-sm font-thin border-blue-300 cursor-pointer hover:bg-slate-100">
+            <h2 className="lg:text-2xl text-md font-bold">SHOP ROLLERSKATES</h2>
+            <div className="lg:px-4 p-2 border text-blue-700 lg:text-sm text-xs font-thin border-blue-300 cursor-pointer hover:bg-slate-100">
               Shop All
             </div>
           </div>
@@ -302,8 +302,8 @@ export default function Home() {
                   />
                 </div>
                 {/* Right side - Content */}
-                <div className="lg:w-1/2 w-full flex flex-col justify-center items-center p-8 lg:px-12 lg:py-8">
-                  <div className="max-w-md text-center space-y-8">
+                <div className="lg:w-1/2 w-full flex flex-col justify-center items-center lg:p-8 p-4 lg:px-12 lg:py-8">
+                  <div className="max-w-md text-center lg:space-y-8 space-y-3">
                     <h1 className="text-sm lg:text-xl font-bold text-black tracking-wide">{mem.title}</h1>
                     <p className="text-sm lg:text-md text-gray-800 font-light leading-relaxed">
                       {mem.text}

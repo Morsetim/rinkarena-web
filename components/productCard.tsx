@@ -35,9 +35,9 @@ export const ProductCard = ({
         <Image
           src={imageUrl}
           alt={altText}
-          width={400}
+          width={100}
           height={300}
-          className="w-full h-64 object-cover"
+          className="w-full lg:h-64 h-36 object-cover "
         />
         {badgeText && (
           <Badge className="absolute top-[-1px] left--1 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded-none">
